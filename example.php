@@ -11,7 +11,7 @@ require_once __DIR__.'/IB.class.php';
 
 
 // init class. N.B. - no connection made at this point
-$db = new FB(array(
+$db = new IB(array(
 		'host'	=>	'localhost',
 		'base'	=>	'example.fdb',
 		'user'	=>	'someuser',
